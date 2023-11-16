@@ -1,5 +1,6 @@
 set -ex
 
+rm -rf node_modules/@jitsi/excalidraw
 npm i
 make
 docker-compose -p jitsi-meet-deb-build -f bin/docker-compose.yml up --build
