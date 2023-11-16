@@ -1,0 +1,9 @@
+version: "3"
+services:
+  build:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: jitsi-build
+    volumes:
+      - ../:/opt/jitsi-meet
