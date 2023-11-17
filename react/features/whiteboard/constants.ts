@@ -14,7 +14,7 @@ export const WHITEBOARD_ID = 'whiteboard';
 export const WHITEBOARD_UI_OPTIONS = {
     canvasActions: {
         allowedShapes: [
-            'arrow', 'diamond', 'ellipse', 'freedraw', 'line', 'rectangle', 'selection', 'text'
+            'arrow', 'diamond', 'ellipse', 'freedraw', 'line', 'rectangle', 'selection', 'text', 'image'
         ],
         allowedShortcuts: [
             'cut', 'deleteSelectedElements', 'redo', 'selectAll', 'undo'
