@@ -130,3 +130,6 @@ source-package:
 
 our-build:
 	bin/build.sh
+
+our-start:
+	bin/start.sh
