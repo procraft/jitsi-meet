@@ -131,5 +131,10 @@ source-package:
 our-build:
 	bin/build.sh
 
+our-build-all:
+	cd ../excalidraw && make our-build
+	make our-build
+	scp bin/deb/jitsi-meet-web_*.deb jitsi:/tmp
+
 our-start:
 	bin/start.sh
